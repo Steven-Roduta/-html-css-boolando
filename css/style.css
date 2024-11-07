@@ -250,3 +250,21 @@ img{
     background-color: #1a1a1a;
     color: white;
 }
+
+.images2 {
+
+
+    position: absolute;
+    top: 10px;
+    width: 101%;
+    text-align: center;
+    display: none;
+    opacity: 0;
+    transition: o.4s opacity;
+}
+
+.col:hover .images2 {
+
+    display: block;
+    opacity: 1;
+}
