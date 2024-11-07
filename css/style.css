@@ -5,8 +5,8 @@
 *{
 
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: -2px;
 }
 
 
@@ -23,6 +23,18 @@
 
 }
 
+.container-hero{
+
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
 
 /* -------------
    IMAGES
@@ -34,10 +46,11 @@ img{
     max-height: 10%;
 }
 
-
-
-
-
+.col img {
+    
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* -------------
     HEADER
@@ -73,7 +86,7 @@ img{
     .container .main-nav{
     
         padding: 2px;
-        text-align: left;
+        text-align: center;
     }
     
     
@@ -84,7 +97,7 @@ img{
     
     .container .logo .container .main-nav{
         
-        text-align: left;
+        text-align: center;
     }
     
     
@@ -92,7 +105,7 @@ img{
     
         list-style:none;
         display: flex;
-        justify-content: flex-start;
+        justify-content:center;
         gap: 70px;
     }
     
@@ -100,13 +113,13 @@ img{
     
         text-decoration: none;
         color: inherit;
-        justify-content: flex-start;
+        justify-content: center;
     }
     
     .main-nav{
         color: #ffff;
         width: 50%;
-        text-align: left;
+        text-align: center;
     }
     
     .container .logo{
@@ -129,6 +142,49 @@ img{
         padding: 5px;
         min-height: 10px;
         max-width: 100%;
+        gap: 50px;
       
      
      }
+
+/* --------------
+      MAIN 
+------------------*/
+
+.row {
+
+    margin-bottom: 40px;
+    display:flex;
+    gap:15px;
+
+}
+
+.col {
+    
+    
+    width: calc(100% / 3);
+    position: relative;
+
+    
+}
+
+.discount{
+
+    background-color: red;
+    position:absolute;
+    bottom:0px;
+    left:0;
+
+}
+
+.sostenibilità{
+
+    background-color: #008000;
+    color: white;
+    position: absolute;
+    border-radius:0px;
+    bottom:0;
+    left:0;
+    
+}
+
