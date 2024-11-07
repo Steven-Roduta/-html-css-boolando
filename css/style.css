@@ -6,7 +6,7 @@
 
     box-sizing: border-box;
     padding: 5px;
-    margin: -2px;
+    margin: 0;
 }
 
 
@@ -17,7 +17,7 @@
 
 .container{
 
-    max-width: 1000px;
+    max-width: 100px;
     margin-left: auto;
     margin-right: auto;
 
@@ -42,7 +42,7 @@
 
 img{
     
-    max-width: 10%;
+    max-width: 27%;
     max-height: 10%;
 }
 
@@ -56,12 +56,33 @@ img{
     HEADER
 ---------------- */
 
+
+.header{
+
+    width: 100%;
+    padding: 40px 0;
+    background-color: #ff6900;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+
+
+
 .header{
 
     display:flex;
-    padding: 10px;
+    padding:0;
     min-width: 100%;
     color: #ff6900;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
     
 }
 
@@ -171,6 +192,10 @@ img{
 .discount{
 
     background-color: red;
+    color: white;
+    padding:1px 4px;
+    margin: 115px 15px;
+    border: none;
     position:absolute;
     bottom:0px;
     left:0;
@@ -181,6 +206,9 @@ img{
 
     background-color: #008000;
     color: white;
+    padding: 1px 4px;
+    margin: 115px 58px;
+    border: none;
     position: absolute;
     border-radius:0px;
     bottom:0;
@@ -188,3 +216,37 @@ img{
     
 }
 
+.sostenibilità1{
+
+    background-color: #008000;
+    color: white;
+    padding: 1px 4px;
+    margin: 115px 16px;
+    border: none;
+    position: absolute;
+    border-radius:0px;
+    bottom:0;
+    left:0;
+}
+
+.red{
+
+    color: red;
+    padding: 1px 2px;
+}
+
+.heart{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:10px;
+    margin: 10px;
+}
+
+.bool{
+    
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    color: white;
+}
